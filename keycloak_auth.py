@@ -17,7 +17,7 @@ app.config['SECRET_KEY'] = "random string"
 db = SQLAlchemy(app)
 
 app.config.update({
-    'SECRET_KEY': 'SomethingNotEntirelySecret',
+    'SECRET_KEY': 'yFzBz1nGR8VGMd3JfNbUOabEArduCTAI',
     'TESTING': True,
     'DEBUG': True,
     'OIDC_CLIENT_SECRETS': 'D:\ML\Demo_app_using_flask\clients_secrets.json',
